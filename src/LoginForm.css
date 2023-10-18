@@ -1,0 +1,73 @@
+form {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .success-message {
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+   .center-button {
+    display: block;
+    margin: auto;
+  }
+  
+  .form-container {
+    text-align: center;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 1em;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .login-form {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: calc(100% - 20px); /* Reduced width */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* So that padding doesn't increase the width */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  
