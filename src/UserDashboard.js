@@ -5,16 +5,6 @@ import { initializeApp } from 'firebase/app';
 import './UserDashboard.css';
 
 
-const firebaseConfig = {
-    apiKey: "AIzaSyBElDbZGBR4bLJND0a6ypWt9PZZg5JY7Bk",
-    authDomain: "pixieforce.firebaseapp.com",
-    projectId: "pixieforce",
-    storageBucket: "pixieforce.appspot.com",
-    messagingSenderId: "533183695928",
-    appId: "1:533183695928:web:e943d983a52d26334daacd",
-    measurementId: "G-PYLD106THR"
-  };
-
   const app = initializeApp(firebaseConfig);
   const auth = getAuth(app);
   
